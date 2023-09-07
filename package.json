@@ -1,0 +1,44 @@
+{
+  "name": "kendo-dashboard",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@progress/kendo-data-query": "^1.6.0",
+    "@progress/kendo-drawing": "^1.17.6",
+    "@progress/kendo-licensing": "^1.3.1",
+    "@progress/kendo-react-animation": "^5.17.0",
+    "@progress/kendo-react-buttons": "^5.17.0",
+    "@progress/kendo-react-charts": "^5.17.0",
+    "@progress/kendo-react-data-tools": "^5.17.0",
+    "@progress/kendo-react-dateinputs": "^5.17.0",
+    "@progress/kendo-react-dropdowns": "^5.17.0",
+    "@progress/kendo-react-grid": "^5.17.0",
+    "@progress/kendo-react-inputs": "^5.17.0",
+    "@progress/kendo-react-intl": "^5.17.0",
+    "@progress/kendo-react-layout": "^5.17.0",
+    "@progress/kendo-react-popup": "^5.17.0",
+    "@progress/kendo-react-progressbars": "^5.17.0",
+    "@progress/kendo-react-treeview": "^5.17.0",
+    "@progress/kendo-theme-material": "^6.7.0",
+    "hammerjs": "^2.0.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "vite": "^4.4.5"
+  }
+}
